@@ -56,19 +56,19 @@ onUnmounted(() => {
 <template>
   <div ref="navRef" class="sticky top-0 w-80px h-screen border-r border-gray-200 flex flex-col justify-center items-end pr-2 gap-8">
     <nuxt-link to="/" data-key="index">
-      <div class="i-ri-home-smile-line text-xl" />
+      <div class="i-ri-home-smile-line text-xl" title="index" />
     </nuxt-link>
     <nuxt-link to="/plans" data-key="plans">
-      <div class="i-ri-todo-line text-xl" />
+      <div class="i-ri-todo-line text-xl" title="plans" />
     </nuxt-link>
     <nuxt-link to="/weekly" data-key="weekly">
-      <div class="i-ic-baseline-menu-book text-xl" />
+      <div class="i-ic-baseline-menu-book text-xl" title="weekly" />
     </nuxt-link>
     <nuxt-link to="/bookmarks" data-key="bookmarks">
-      <div class="i-ic-round-bookmarks text-xl" />
+      <div class="i-ic-round-bookmarks text-xl" title="bookmarks" />
     </nuxt-link>
     <nuxt-link to="/about" data-key="about">
-      <div class="i-ri-team-line text-xl" />
+      <div class="i-ri-team-line text-xl" title="about" />
     </nuxt-link>
     <div ref="boxRef" class="w-2 h-2 bg-light-900 rounded-full absolute top-2 right-[-0.3rem]" />
   </div>
